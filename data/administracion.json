@@ -1,0 +1,291 @@
+{
+  "cursos": [
+    {
+      "id": "LS",
+      "nombre": "Lógica Simbólica",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "FM",
+      "nombre": "Fundamentos Matemáticos",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "TPA",
+      "nombre": "Teoría y Proceso Administrativo",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "HD",
+      "nombre": "Herramientas Digitales",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "COM",
+      "nombre": "Comunicación",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "CPRG",
+      "nombre": "Cátedra Pedro Ruiz Gallo",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "RCTE",
+      "nombre": "Redacción Científica y Técnicas de Estudio",
+      "ciclo": 1,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "CDI",
+      "nombre": "Cálculo Diferencial e Integral",
+      "ciclo": 2,
+      "creditos": 3,
+      "requisitos": [
+        "FM"
+      ]
+    },
+    {
+      "id": "CE",
+      "nombre": "Contabilidad Empresarial",
+      "ciclo": 2,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "DLIE",
+      "nombre": "Dirección, Liderazgo e Inteligencia Emocional",
+      "ciclo": 2,
+      "creditos": 3,
+      "requisitos": [
+        "COM"
+      ]
+    },
+    {
+      "id": "DP",
+      "nombre": "Desarrollo Personal",
+      "ciclo": 2,
+      "creditos": 2,
+      "requisitos": []
+    },
+    {
+      "id": "ADS",
+      "nombre": "Ambiente y Desarrollo Sostenible",
+      "ciclo": 2,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "CD",
+      "nombre": "Ciudadanía y Democracia",
+      "ciclo": 2,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "TA",
+      "nombre": "Taller de Arte",
+      "ciclo": 2,
+      "creditos": 2,
+      "requisitos": []
+    },
+    {
+      "id": "ING",
+      "nombre": "Inglés Básico para los Negocios",
+      "ciclo": 2,
+      "creditos": 2,
+      "requisitos": []
+    },
+    {
+      "id": "LL",
+      "nombre": "Legislación Laboral",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "LS"
+      ]
+    },
+    {
+      "id": "MIC",
+      "nombre": "Microeconomía",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "CDI"
+      ]
+    },
+    {
+      "id": "ED",
+      "nombre": "Estadística Descriptiva",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "FM"
+      ]
+    },
+    {
+      "id": "MF",
+      "nombre": "Matemática Financiera",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "FM"
+      ]
+    },
+    {
+      "id": "MDTE",
+      "nombre": "Motivación y Trabajo en Equipo",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "DLIE"
+      ]
+    },
+    {
+      "id": "AC",
+      "nombre": "Administración de Costos",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": [
+        "CE"
+      ]
+    },
+    {
+      "id": "LE",
+      "nombre": "Legislación Empresarial",
+      "ciclo": 3,
+      "creditos": 3,
+      "requisitos": []
+    },
+    {
+      "id": "MAC",
+      "nombre": "Macroeconomía",
+      "ciclo": 4,
+      "creditos": 3,
+      "requisitos": [
+        "CDI"
+      ]
+    },
+    {
+      "id": "EI",
+      "nombre": "Estadística Inferencial",
+      "ciclo": 4,
+      "creditos": 3,
+      "requisitos": [
+        "ED"
+      ]
+    },
+    {
+      "id": "AP",
+      "nombre": "Administración Presupuestaria",
+      "ciclo": 4,
+      "creditos": 4,
+      "requisitos": [
+        "AC"
+      ]
+    },
+    {
+      "id": "MKT",
+      "nombre": "Marketing",
+      "ciclo": 4,
+      "creditos": 3,
+      "requisitos": [
+        "MIC"
+      ]
+    },
+    {
+      "id": "APERS",
+      "nombre": "Administración de Personal",
+      "ciclo": 4,
+      "creditos": 4,
+      "requisitos": [
+        "LL"
+      ]
+    },
+    {
+      "id": "PF",
+      "nombre": "Pensamiento Filosófico",
+      "ciclo": 4,
+      "creditos": 2,
+      "requisitos": [
+        "CD"
+      ]
+    },
+    {
+      "id": "EN",
+      "nombre": "Ética en los Negocios",
+      "ciclo": 5,
+      "creditos": 2,
+      "requisitos": [
+        "PF"
+      ]
+    },
+    {
+      "id": "AT",
+      "nombre": "Administración Tributaria",
+      "ciclo": 5,
+      "creditos": 4,
+      "requisitos": [
+        "LE"
+      ]
+    },
+    {
+      "id": "DO",
+      "nombre": "Diseño Organizacional",
+      "ciclo": 5,
+      "creditos": 3,
+      "requisitos": [
+        "APERS"
+      ]
+    },
+    {
+      "id": "PL",
+      "nombre": "Programación Lineal",
+      "ciclo": 5,
+      "creditos": 3,
+      "requisitos": [
+        "FM"
+      ]
+    },
+    {
+      "id": "AFO",
+      "nombre": "Administración Financiera Operativa",
+      "ciclo": 5,
+      "creditos": 3,
+      "requisitos": [
+        "AP"
+      ]
+    },
+    {
+      "id": "GV",
+      "nombre": "Gestión de Ventas",
+      "ciclo": 5,
+      "creditos": 3,
+      "requisitos": [
+        "MKT"
+      ]
+    },
+    {
+      "id": "CO",
+      "nombre": "Comportamiento Organizacional",
+      "ciclo": 5,
+      "creditos": 3,
+      "requisitos": [
+        "MDTE"
+      ]
+    }
+  ]
+}
